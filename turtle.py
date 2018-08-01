@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 df = pd.read_csv(r'AUDUSD1440.csv')
 df['date'] = pd.to_datetime(df['date'])
 df.set_index("date",inplace=True)
-np.save('C:/Users/SONG100/PycharmProjects/invest/AUDUSD1440',df)
 
 N1 = 42
 N2 = 21
